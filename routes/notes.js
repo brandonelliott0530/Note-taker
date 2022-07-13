@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// brings in the file system module. This is for writing and appendging to files. 
+// brings in the file system module. This is for writing and appending to files. 
 const fs = require('fs');
 // uuid for giving each note a unique ID number
 const { v4: uuidv4 } = require('uuid')
@@ -27,6 +27,7 @@ router.get('/', (req, res) => {
 
 // Router for a POST request to the / destination
 router.post("/", (req, res) => {
+    const { title, text } = req.body
     fs.readFile(db, "utf8", (err, response) => {
         // logs an error if there is an error
         if(err) {
@@ -34,6 +35,7 @@ router.post("/", (req, res) => {
             res.status(400).send("There was an error while processing your request. Please try again")
         } else {
             const oldNotes = JSON.parse(response)
+            
             // pushes the old notes with the keys of each note. uuidv gives the note a unique id. 
             oldNotes.push({ title, text, id: uuidv4() })
             // fs method for writing a file

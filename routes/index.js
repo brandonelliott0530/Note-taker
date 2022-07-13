@@ -5,7 +5,7 @@ const notes = require("./notes")
 
 
 
-router.use('/notes', notes)
+router.use('./notes', notes)
 console.log(router)
 
 module.exports = router

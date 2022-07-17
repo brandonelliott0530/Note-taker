@@ -1,6 +1,7 @@
 const { response } = require('express');
 const express = require('express');
 const router = express.Router();
+const path = require('path');
 // brings in the file system module. This is for writing and appending to files. 
 const fs = require('fs');
 const { request } = require('http');

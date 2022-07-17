@@ -34,7 +34,7 @@ ________________________________________________________________
 
 ## Deployed Code
 ________________________________________________________________
-GitHub: https://brandonelliott0530.github.io/Note-taker/
+GitHub: https://github.com/brandonelliott0530/Note-taker
 ________________________________________________________________
 Heroku: https://shielded-headland-75043.herokuapp.com/ 
 

@@ -29,5 +29,16 @@ ________________________________________________________________
 The main challenges in developing this application were getting the routes to work correctly. It turns out that I was really close the whole time, but the front end of the application, which was included in the starter code, had it to where instead of going to /notes, the url had to end with /notes.html. After rectifying that issue, getting the new note to show up was challenging. The proper syntax for a post request challenged me. Thankfully with the help of my instructor, I was able to get it to work properly. 
 
 ## Screenshot
+________________________________________________________________
 ![Screenshot](./assets/screenshot.png)
 
+## Deployed Code
+________________________________________________________________
+GitHub: https://brandonelliott0530.github.io/Note-taker/
+Heroku: https://shielded-headland-75043.herokuapp.com/ 
+
+## Contact Me:
+________________________________________________________________
+Email: brandonelliott0530@gmail.com
+________________________________________________________________
+GitHub: https://github.com/brandonelliott0530
